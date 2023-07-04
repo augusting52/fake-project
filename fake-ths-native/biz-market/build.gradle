@@ -6,11 +6,11 @@ plugins {
 apply from: "${rootDir}/thirdPartyDepen.gradle"
 
 android {
-    namespace 'com.lb.fake.ths'
+    namespace 'com.lb.fake.ths.market'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.lb.fake.ths"
+        applicationId "com.lb.fake.ths.market"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -33,12 +33,3 @@ android {
         jvmTarget = '1.8'
     }
 }
-
-dependencies {
-
-    implementation project(":biz-home")
-    implementation project(":biz-market")
-    implementation project(":biz-trade")
-
-}
-

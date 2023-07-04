@@ -14,3 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "fake-ths-native"
 include ':app'
+include ':biz-home'
+include ':biz-market'
+include ':biz-trade'
