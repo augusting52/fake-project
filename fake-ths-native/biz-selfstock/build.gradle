@@ -6,11 +6,11 @@ plugins {
 apply from: "$rootProject.projectDir/moduleDepen.gradle"
 
 android {
-    namespace 'com.lb.fake.ths.home'
+    namespace 'com.lb.fake.ths.selfstock'
     compileSdk 33
 
     defaultConfig {
-//        applicationId "com.lb.fake.ths.home"
+//        applicationId "com.lb.fake.ths.selfstock"
         minSdk 24
         targetSdk 33
         versionCode 1

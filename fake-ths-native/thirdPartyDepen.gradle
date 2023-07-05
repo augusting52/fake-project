@@ -1,10 +1,10 @@
 dependencies {
 
-    implementation "androidx.core:core-ktx:${version_core_ktx}"
-    implementation "androidx.appcompat:appcompat:${version_appcompat}"
-    implementation "com.google.android.material:material:${version_material}"
-    implementation "androidx.constraintlayout:constraintlayout:${version_constraintlayout}"
-    testImplementation "junit:junit:${version_junit}"
-    androidTestImplementation "androidx.test.ext:junit:${version_androdx_junit}"
-    androidTestImplementation "androidx.test.espresso:espresso-core:${version_espresso_core}"
+    implementation "androidx.core:core-ktx:$version_core_ktx"
+    implementation "androidx.appcompat:appcompat:$version_appcompat"
+    implementation "com.google.android.material:material:$version_material"
+    implementation "androidx.constraintlayout:constraintlayout:$version_constraintlayout"
+    testImplementation "junit:junit:$version_junit"
+    androidTestImplementation "androidx.test.ext:junit:$version_androdx_junit"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$version_espresso_core"
 }

@@ -1,16 +1,16 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
 }
 
-apply from: "${rootDir}/thirdPartyDepen.gradle"
+apply from: "$rootProject.projectDir/moduleDepen.gradle"
 
 android {
     namespace 'com.lb.fake.ths.trade'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.lb.fake.ths.trade"
+//        applicationId "com.lb.fake.ths.trade"
         minSdk 24
         targetSdk 33
         versionCode 1

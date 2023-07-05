@@ -3,20 +3,18 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
-apply from: "$rootProject.projectDir/moduleDepen.gradle"
+apply from: "$rootProject.projectDir/thirdPartyDepen.gradle"
 
 android {
-    namespace 'com.lb.fake.ths.home'
+    namespace 'com.lb.fake.ths.ui'
     compileSdk 33
 
     defaultConfig {
-//        applicationId "com.lb.fake.ths.home"
         minSdk 24
         targetSdk 33
-        versionCode 1
-        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
     }
 
     buildTypes {

@@ -3,7 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
-apply from: "${rootDir}/thirdPartyDepen.gradle"
+apply from: "$rootProject.projectDir/moduleDepen.gradle"
 
 android {
     namespace 'com.lb.fake.ths'
@@ -39,6 +39,8 @@ dependencies {
     implementation project(":biz-home")
     implementation project(":biz-market")
     implementation project(":biz-trade")
+    implementation project(":biz-selfstock")
+    implementation project(":biz-news")
 
 }
 
