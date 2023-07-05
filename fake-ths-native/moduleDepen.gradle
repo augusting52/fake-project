@@ -3,5 +3,6 @@ apply from: "$rootProject.projectDir/thirdPartyDepen.gradle"
 dependencies {
 
     implementation project(":lib-ui")
+    implementation project(":lib-common")
 
 }
