@@ -19,5 +19,7 @@ include ':biz-market'
 include ':biz-trade'
 include ':biz-selfstock'
 include ':biz-news'
+include ':biz-ads'
+
 include ':lib-ui'
 include ':lib-common'
